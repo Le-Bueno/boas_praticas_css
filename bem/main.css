@@ -1,0 +1,30 @@
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.produtos__item {
+    border: 1px solid #ddd;
+    padding: 16px;
+    width: 30%;
+}
+
+.produtos__imagem {
+    width: 100%;
+    height: auto;
+}
+
+.produtos__nome {
+    font-size: 1.2em;
+    margin: 8px 0;
+}
+
+.produtos__descricao {
+    color: gray;
+}
+
+.produtos__item--destaque {
+    border-color: gold;
+    background-color: #ffffe0;
+}
