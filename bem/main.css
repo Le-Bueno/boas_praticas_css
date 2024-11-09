@@ -2,10 +2,11 @@
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
+   
 }
 
 .produtos__item {
-    border: 1px solid #ddd;
+    border: 1px solid #0f0000;
     padding: 16px;
     width: 30%;
 }
@@ -16,12 +17,14 @@
 }
 
 .produtos__nome {
+    color: rgb(12, 0, 0);
     font-size: 1.2em;
     margin: 8px 0;
 }
 
 .produtos__descricao {
-    color: gray;
+    color: rgb(53, 10, 129);
+    
 }
 
 .produtos__item--destaque {
